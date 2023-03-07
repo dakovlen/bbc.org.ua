@@ -1,5 +1,5 @@
 import Head from 'next/head'
-// import Image from 'next/image'
+import Image from 'next/image'
 import { Inter } from 'next/font/google'
 // import styles from '@/styles/Home.module.css'
 
@@ -18,7 +18,15 @@ export default function Home() {
         <nav classNameName="Navbar">
           <div classNameName="wrapper">
             <ul className="menu">
-              {/* <li className="logo"><img src="logo.png" alt="Назва логотипу"></li> */}
+              <li className="logo">
+              <Image
+                src="/logo.png" 
+                alt="Назва логотипу"
+                width="2"
+                height="2"
+              />
+                
+              </li>
               <li><a href="#">Home</a></li>
               <li><a href="#">About Us</a></li>
               <li><a href="#">Sermon</a></li>
