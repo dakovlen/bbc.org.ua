@@ -15,8 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-        <nav classNameName="Navbar">
-          <div classNameName="wrapper">
+        <nav className="navbar">
+          <div className="wrapper">
             <ul className="menu">
               <li className="logo">
               <Image
@@ -36,7 +36,7 @@ export default function Home() {
           </div>
         </nav>
 
-        <div className="Home-Header">
+        <div className="home-header">
           <div className="header wrapper ">
             <span>Welcome to our CHURCH</span>
             <h1>Become a part of our community</h1>
