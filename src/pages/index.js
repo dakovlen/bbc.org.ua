@@ -59,7 +59,7 @@ export default function Home() {
       <section className="heading wrapper">
         <div className="text1">
           <span className="subtext">sub-headline</span>
-          <h2>a church that's relevant</h2>
+          <h2>a church thas relevant</h2>
         </div>
         <div className="block-container">
           <div className="block1">
@@ -95,7 +95,7 @@ export default function Home() {
       <section className="heading1 wrapper">
         <div className="text2">
           <span className="subtext1">sub-headline</span>
-          <h2>a church that's relevant</h2>
+          <h2>a church thats relevant</h2>
         </div>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipi
