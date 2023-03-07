@@ -45,7 +45,12 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
           </div>
           <div className="image">
-            <img src="Image/woman-in-orange-coat-with-black-and-brown-scarf-5418305.jpg" />
+            <Image 
+                src="/Image/woman-in-orange-coat-with-black-and-brown-scarf-5418305.jpg" 
+                alt="Назва img"
+                width="2"
+                height="2"
+              />
           </div>
 
         </div>
@@ -58,17 +63,30 @@ export default function Home() {
         </div>
         <div className="block-container">
           <div className="block1">
-            <img src="Image/Icon1.png" alt="Іконка 1" />
+            <Image 
+              src="/Image/Icon1.png" 
+              alt="Іконка 1" 
+              width="2"
+              height="2"
+            />
             <h4>About us</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div className="block2">
-            <img src="Image/Icon2.png" alt="Іконка 2" />
+            <Image 
+              src="/Image/Icon2.png" 
+              alt="Іконка 2"
+              width="2"
+              height="2" />
             <h4>Get involved</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div className="block3">
-            <img src="Image/Icon3.png" alt="Іконка 3" />
+              <Image 
+                src="/Image/Icon3.png" 
+                alt="Іконка 3"
+                width="2"
+                height="2" />
             <h4>Giving back</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
@@ -86,9 +104,22 @@ export default function Home() {
         <button>Read more</button>
 
         <div className="image-container">
-          <img src="Image/a-bearded-man-praying-5206040.jpg" alt="image 1" />
-          <img src="Image/man-and-woman-reading-book-while-sitting-on-pews-8468470.jpg" alt="image 2" />
-          <img src="Image/people-sitting-on-brown-pews-8674151.jpg" alt="image 3" />
+          <Image 
+            src="/Image/a-bearded-man-praying-5206040.jpg" 
+            alt="image 1"
+            width="2"
+            height="2" />
+          <Image 
+            src="/Image/man-and-woman-reading-book-while-sitting-on-pews-8468470.jpg" 
+            alt="image 2"
+            width="2"
+            height="2" />
+          <Image 
+            src="/Image/people-sitting-on-brown-pews-8674151.jpg" 
+            alt="image 3" 
+            width="2"
+            height="2"
+            />
         </div>
 
         <div className="text2">
@@ -107,20 +138,36 @@ export default function Home() {
           <span>Watch and listen</span>
           <h2>THE benefits of joining our church</h2>
           <div className="image-wrapper">
-            <img src="Image/fashion-man-love-people-5875438.jpg" alt="Картинка 1" />
+            <Image 
+              src="/Image/fashion-man-love-people-5875438.jpg" 
+              alt="Картинка 1" 
+              width="2" 
+              height="2" />
             <h5 className="image-title">WATCH AND LISTEN TO OUR SERMONS</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
           </div>
           <div className="image-wrapper">
-            <img src="Image/a-statue-holding-a-holy-book-5613134.jpg" alt="Картинка 2" />
+            <Image 
+              src="/Image/a-statue-holding-a-holy-book-5613134.jpg" 
+              alt="Картинка 2"
+              width="2" 
+              height="2" />
             <h5>WATCH AND LISTEN TO OUR SERMONS</h5>
           </div>
           <div className="image-wrapper">
-            <img src="Image/man-people-woman-connection-6276711.jpg" alt="Картинка 3" />
+            <Image 
+              src="/Image/man-people-woman-connection-6276711.jpg" 
+              alt="Картинка 3"
+              width="2" 
+              height="2" />
             <h5>WATCH AND LISTEN TO OUR SERMONS</h5>
           </div>
           <div className="image-wrapper">
-            <img src="Image/woman-in-blue-tank-top-and-man-in-red-shirt-painting-3795022.jpg" alt="Картинка 4" />
+            <Image 
+              src="/Image/woman-in-blue-tank-top-and-man-in-red-shirt-painting-3795022.jpg" 
+              alt="Картинка 4"
+              width="2" 
+              height="2" />
             <h5>WATCH AND LISTEN TO OUR SERMONS</h5>
           </div>
 
@@ -144,16 +191,28 @@ export default function Home() {
             </div>
 
             <div className="icon-and-time">
-              <img src="Image/Clock icon.png" alt="Icon" />
+              <Image 
+                src="/Image/Clock icon.png" 
+                alt="Icon"
+                width="2" 
+                height="2" />
               <p>Friday 23:39 IST<br /> Saturday 11:20 ISD</p>
             </div>
             <div className="icon-and-location">
-              <img src="Image/location.png" alt="Location" />
+              <Image 
+                src="/Image/location.png" 
+                alt="Location"
+                width="2" 
+                height="2" />
               <p>No 233 Main St. New York,<br /> United States</p>
             </div>
             <button>Register</button>
           </div>
-          <img src="Image/angel.jpg" alt="Image" />
+          <Image 
+            src="/Image/angel.jpg" 
+            alt="Image"
+            width="2" 
+            height="2" />
 
         </div>
         <a href="#">View all Sermons →</a>
@@ -162,13 +221,23 @@ export default function Home() {
       </section>
 
       <section className="container">
-        <img src="Image/image-church.png" alt="background" className="bg-img" />
+        <Image 
+          src="/Image/image-church.png" 
+          alt="background" 
+          className="bg-img" 
+          width="2" 
+          height="2"/>
         <div className="content">
           <h2>We want to serve the world around us</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
           <button>Visit</button><hr className="line" />
 
-          <img src="Image/Quote icon.png" alt="icon" className="icon" />
+          <Image 
+            src="/Image/Quote icon.png" 
+            alt="icon" 
+            className="icon"
+            width="2" 
+            height="2" />
         </div>
       </section>
 
@@ -209,7 +278,11 @@ export default function Home() {
 
       <footer className="footer wrapper">
         <div className="footer-block">
-          <img src="logo.png" alt="Logo" />
+          <Image 
+            src="/logo.png" 
+            alt="Logo"
+            width="2" 
+            height="2" />
 
           <div className="content-left">
             <span>© Copyright Finsweet 2022</span>
