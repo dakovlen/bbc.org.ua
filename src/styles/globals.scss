@@ -105,57 +105,56 @@ a {
     color-scheme: dark;
   }
 }*/
+
 body {
+  padding: 0;
+  margin: 0;
   max-width: 100%;
-  margin: 0 auto;
   background: #FFFFFF;
 }
 
 .wrapper {
-  padding-left: 110px;
-  padding-right: 110px;
-  width: 1500px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1250px;
 }
 
-.menu {
-  height: 80px;
-  width: 1500px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  background: #0D0D0D;
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-  width: 308px;
+  border-right: 2px solid #252525;
 }
 
-.menu li {
-  float: left;
-  text-transform: uppercase;
-}
+.menu {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
 
-.menu li a {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-transform: uppercase;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  li {
+    text-transform: uppercase;
+    a {
+      font-family: 'Roboto Condensed';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-transform: uppercase;
+      display: block;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
 
-.menu li a:hover {
-  color: #FFD2A4;
+      &:hover {
+        color: #FFD2A4;
+      }
+    }
+  }
 }
 
 .contact-button {
@@ -165,11 +164,6 @@ body {
   padding: 20px 48px;
   gap: 16px;
   text-decoration: none;
-  position: absolute;
-  left: 80.73%;
-  right: 7.33%;
-  top: 15%;
-  bottom: 15%;
   color: #1C1D28;
   background: #FFD2A4;
   backdrop-filter: blur(40px);
@@ -180,61 +174,74 @@ body {
   background: #F2C79B;
 }
 
-.home-header h1 {
-  position: absolute;
-  margin-top: 16px;
-  width: 692px;
-  height: 164px;
-  left: 110px;
-  top: 243px;
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 82px;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  color: #FFFFFF;
+header {
+  background: #0D0D0D;
 }
 
-.home-header span {
-  position: absolute;
-  width: 286px;
-  height: 19px;
-  left: 110px;
-  top: 208px;
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
+// .home-header {
+//   h1 {
+//     position: absolute;
+//     margin-top: 16px;
+//     width: 692px;
+//     height: 164px;
+//     left: 110px;
+//     top: 243px;
+//     font-family: 'Roboto Condensed';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 64px;
+//     line-height: 82px;
+//     letter-spacing: -0.01em;
+//     text-transform: uppercase;
+//     color: #FFFFFF;
+//   }
 
-.home-header p {
-  position: absolute;
-  width: 308px;
-  height: 48px;
-  left: 140px;
-  top: 567px;
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFFFFF;
-}
+//   span {
+//     position: absolute;
+//     width: 286px;
+//     height: 19px;
+//     left: 110px;
+//     top: 208px;
+//     font-family: 'Roboto Condensed';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 19px;
+//     text-transform: uppercase;
+//     color: #FFFFFF;
+//   }
 
-.home-header hr {
-  position: absolute;
-  width: 18px;
-  height: 0px;
-  left: 110px;
-  top: 579px;
-  border: 2px solid #FFD2A4;
-  transform: rotate(-180deg);
-}
+//   p {
+//     position: absolute;
+//     width: 308px;
+//     height: 48px;
+//     left: 140px;
+//     top: 567px;
+//     font-family: 'Roboto Condensed';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 24px;
+//     color: #FFFFFF;
+//   }
+
+//   hr {
+//     position: absolute;
+//     width: 18px;
+//     height: 0px;
+//     left: 110px;
+//     top: 579px;
+//     border: 2px solid #FFD2A4;
+//     transform: rotate(-180deg);
+//   }
+// }
+
+
+
+
+
+
+
 
 .button {
   position: absolute;
@@ -256,12 +263,9 @@ body {
 }
 
 .heading .text1 {
-
   padding-top: 10px;
   display: flex;
   justify-content: center;
-
-
 }
 
 .heading .subtext {

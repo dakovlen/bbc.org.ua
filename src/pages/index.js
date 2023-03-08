@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 // import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -14,29 +15,28 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        <nav className="navbar">
-          <div className="wrapper">
-            <ul className="menu">
-              <li className="logo">
-              <Image
-                src="/logo.png" 
-                alt="Назва логотипу"
-                width="2"
-                height="2"
-              />
-                
-              </li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Sermon</a></li>
-              <li><a href="#">Blog</a></li>
-              <a href="#"><button className="contact-button">Contact Us </button></a>
-            </ul>
-          </div>
-        </nav>
+      <header className="header">
+        <nav className="header-nav navbar wrapper">
+          <Link href="./" className="logo">
+            <Image
+              src="/Image/logo-word.svg"
+              alt="Logo"
+              width="200"
+              height="40" />
+          </Link>
+          
+          <ul className="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Sermon</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
 
-        <div className="home-header">
+          <a href="#" className="contact-button">Contact Us</a>
+        </nav>
+      </header>
+      {/* <main>
+      <div className="home-header">
           <div className="header wrapper ">
             <span>Welcome to our CHURCH</span>
             <h1>Become a part of our community</h1>
@@ -45,18 +45,16 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
           </div>
           <div className="image">
-            <Image 
-                src="/Image/woman-in-orange-coat-with-black-and-brown-scarf-5418305.jpg" 
-                alt="Назва img"
-                width="2"
-                height="2"
-              />
+            <Image
+              src="/Image/woman-in-orange-coat-with-black-and-brown-scarf-5418305.jpg"
+              alt="Назва img"
+              width="2"
+              height="2"
+            />
           </div>
 
         </div>
-
-      </header>
-      <section className="heading wrapper">
+        <section className="heading wrapper">
         <div className="text1">
           <span className="subtext">sub-headline</span>
           <h2>a church thas relevant</h2>
@@ -275,8 +273,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      </main> */}
 
-      <footer className="footer wrapper">
+      {/* <footer className="footer wrapper">
         <div className="footer-block">
           <Image 
             src="/logo.png" 
@@ -317,7 +316,7 @@ export default function Home() {
             <button type="submit">Subscribe</button>
           </form>
         </div>
-      </footer>
+      </footer> */}
     </>
   )
 }
