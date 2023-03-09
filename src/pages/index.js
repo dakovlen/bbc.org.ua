@@ -275,13 +275,14 @@ export default function Home() {
       </section>
       </main> */}
 
-      {/* <footer className="footer wrapper">
+       <footer className="footer">
+        <div className="footer1 wrapper">
         <div className="footer-block">
           <Image 
-            src="/logo.png" 
+            src="/Image/logo-word.svg" 
             alt="Logo"
-            width="2" 
-            height="2" />
+            width="200" 
+            height="40" />
 
           <div className="content-left">
             <span>© Copyright Finsweet 2022</span>
@@ -293,15 +294,12 @@ export default function Home() {
             <a href="email:emai@.com">finsweet@example.com</a>
           </div>
         </div>
-        <div className="footer-block">
+        <div className="footer-block-menu">
           <p>Quicklinks</p>
-          <span>About us</span>
-          <br />
-          <span>Sermons</span>
-          <br />
-          <span>Events</span>
-          <br />
-          <span>Blog</span>
+          <a href="#">About us</a>
+          <a href="#">Sermons</a>
+          <a href="#">Events</a>
+          <a href="#">Blog</a>
         </div>
         <div className="footer-block">
           <p>Connect with Us</p>
@@ -309,14 +307,15 @@ export default function Home() {
           <a href="#"><i className="fab fa-twitter fa-lg"></i></a>
           <a href="#"><i className="fab fa-instagram fa-lg"></i></a>
         </div>
-        <div className="footer-block">
-          <h4>Subscribe to Our Newsletter</h4>
+        <div className="content-form">
+          <h4>Subscribe to get Latest Updates and News</h4>
           <form>
-            <input type="email" placeholder="Enter your email" />
+            <input type="email" placeholder="Yourmail@gmail.com" />
             <button type="submit">Subscribe</button>
           </form>
         </div>
-      </footer> */}
+        </div>
+      </footer> 
     </>
   )
 }
