@@ -35,12 +35,12 @@ export default function Home() {
           <a href="#" className="contact-button">Contact Us</a>
         </nav>
       </header>
-      {/* <main>
+      
       <div className="home-header">
           <div className="header wrapper ">
             <span>Welcome to our CHURCH</span>
             <h1>Become a part of our community</h1>
-            <a href="#"><button className="button">Learn more</button></a>
+            <button className="button">Learn more</button>
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
           </div>
@@ -48,12 +48,12 @@ export default function Home() {
             <Image
               src="/Image/woman-in-orange-coat-with-black-and-brown-scarf-5418305.jpg"
               alt="Назва img"
-              width="2"
-              height="2"
+              width="1500"
+              height="633"
             />
           </div>
 
-        </div>
+        </div>{/* <main>
         <section className="heading wrapper">
         <div className="text1">
           <span className="subtext">sub-headline</span>
