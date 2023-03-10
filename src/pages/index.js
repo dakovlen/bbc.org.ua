@@ -237,11 +237,13 @@ export default function Home() {
             width="2" 
             height="2" />
         </div>
-      </section>
+      </section> </main> */}
 
-      <section className="blocks-blog wrapper">
-        <span className="blog">Read our Blog</span>
-        <h2 className="blog1">SHARE, INSPIRE, INNOVATE</h2>
+      <section className="blocks-blog container">
+        <div className='blog'>
+        <span className="blog1">Read our Blog</span>
+        <h2 className="blog2">SHARE, INSPIRE, INNOVATE</h2>
+        </div>
         <div className="blocks">
           <div className="block">
             <span>Relationship</span>
@@ -273,7 +275,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      </main> */}
+      
 
        <footer className="footer">
         <div className="footer1 wrapper">
