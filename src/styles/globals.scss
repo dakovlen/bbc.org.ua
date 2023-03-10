@@ -954,11 +954,6 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
-
-  /* Black */
-
   color: #161722;
   display: flex;
   align-items: center;
@@ -966,7 +961,6 @@ header {
 }
 
 .icon-and-location {
-
   margin-top: -20px;
   margin-bottom: 22px;
 }
@@ -974,7 +968,6 @@ header {
 .icon-and-time img,
 .icon-and-location img {
   margin-right: 8px;
-
 }
 
 .info-text button {
@@ -983,32 +976,21 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  /* identical to box height, or 100% */
-
   text-align: center;
   text-transform: uppercase;
-
-  /* primary */
-
   color: #FFD2A4;
   width: 191px;
   height: 64px;
   flex: none;
   order: 0;
   flex-grow: 0;
-
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 24px 64px;
   gap: 16px;
-
-
-
   background: #161722;
   backdrop-filter: blur(40px);
-  /* Note: backdrop-filter has minimal browser support */
-
   border-radius: 12px;
 }
 
@@ -1021,43 +1003,32 @@ header {
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
-  /* identical to box height, or 133% */
-
-
-  /* Black */
-
   color: #161722;
   text-decoration: none;
-
-
 }
 
-
+/*content CTA */
 .container {
   position: relative;
   width: 100%;
   height: 736px;
 
-
-}
-
-
-
-.bg-img {
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .content {
   position: absolute;
   top: 50%;
-  left: 480px;
+  left: 300px;
   transform: translateY(-50%);
-  width: 768px;
+  width: 100%;
+  max-width: 768px;
   height: 480px;
   background-color: #fff;
   padding: 32px;
@@ -1065,75 +1036,64 @@ header {
   font-family: 'Roboto Condensed';
   font-style: normal;
   color: #161722;
+
+  h2 {
+    width: 470px;
+    height: 192px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+  }
+
+  p {
+    width: 302px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    opacity: 0.78;
+  }
+
+  button {
+    border: 1px solid #FFD2A4;
+    background: #FFD2A4;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 64px;
+    gap: 16px;
+    text-transform: uppercase;
+    margin-top: 16px;
+
+    &:hover {
+      background: #F2C79B;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    transform: translateY(-50%);
+  }
+
+  .line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background-color: #FFD2A4;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
 }
-
-.content h2 {
-  width: 470px;
-  height: 192px;
-  margin-bottom: 16px;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 64px;
-  /* or 133% */
-
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-}
-
-.container p {
-  width: 302px;
-  height: 48px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
-
-
-  /* Black */
-
-  color: #161722;
-
-  opacity: 0.78;
-}
-
-.container button {
-  border: 1px solid #FFD2A4;
-  ;
-  background: #FFD2A4;
-  border-radius: 12px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 24px 64px;
-  gap: 16px;
-
-
-  margin-top: 16px;
-}
-
-.icon {
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  transform: translateY(-50%);
-}
-
-.line {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 16px;
-  background-color: #FFD2A4;
-  ;
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-
-
-
 
 /*block-Blog*/
 
@@ -1154,31 +1114,24 @@ header {
 .blog {
   text-align: center;
   margin-top: 128px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  color: #161722;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
 
   .blog1 {
-    font-family: 'Roboto Condensed';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #161722;
     padding-top: 128px;
     margin-top: 128px;
   }
 
   .blog2 {
-    font-family: 'Roboto Condensed';
-    font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
-    text-align: center;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #161722;
     margin-bottom: 64px;
   }
 }

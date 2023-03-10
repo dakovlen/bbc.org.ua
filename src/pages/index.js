@@ -216,15 +216,15 @@ export default function Home() {
         <a href="#">View all Sermons →</a>
 
 
-      </section>
+      </section></main> */}
 
       <section className="container">
         <Image 
           src="/Image/image-church.png" 
           alt="background" 
           className="bg-img" 
-          width="2" 
-          height="2"/>
+          width="1500" 
+          height="736"/>
         <div className="content">
           <h2>We want to serve the world around us</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
@@ -234,10 +234,10 @@ export default function Home() {
             src="/Image/Quote icon.png" 
             alt="icon" 
             className="icon"
-            width="2" 
-            height="2" />
+            width="187" 
+            height="140" />
         </div>
-      </section> </main> */}
+      </section> 
 
       <section className="blocks-blog container">
         <div className='blog'>
