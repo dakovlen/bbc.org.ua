@@ -178,7 +178,7 @@ export default function Home() {
       </section>
 
 {/**Event info */}
-{/* <main>
+
       <section className="block-info wrapper">
         <span className="block-info1">Watch and listen</span>
         <h2 className="block-info2">join us and become part of something great</h2>
@@ -223,7 +223,7 @@ export default function Home() {
         <a href="#">View all Sermons →</a>
 
 
-      </section></main> */}
+      </section>
 
       <section className="container">
         <Image 
