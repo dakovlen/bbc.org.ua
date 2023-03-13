@@ -91,39 +91,40 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-      </section>{/* <main>
+      </section>
 
+{/**Welcome */}
       <section className="heading1 wrapper">
         <div className="text2">
           <span className="subtext1">sub-headline</span>
           <h2>a church thats relevant</h2>
-        </div>
+        
 
         <p>Lorem ipsum dolor sit amet, consectetur adipi
           scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
         <button>Read more</button>
-
+</div>
         <div className="image-container">
           <Image 
             src="/Image/a-bearded-man-praying-5206040.jpg" 
             alt="image 1"
-            width="2"
-            height="2" />
+            width="293"
+            height="384" />
           <Image 
             src="/Image/man-and-woman-reading-book-while-sitting-on-pews-8468470.jpg" 
             alt="image 2"
-            width="2"
-            height="2" />
+            width="390"
+            height="512" />
           <Image 
             src="/Image/people-sitting-on-brown-pews-8674151.jpg" 
             alt="image 3" 
-            width="2"
-            height="2"
+            width="293"
+            height="384"
             />
         </div>
 
-        <div className="text2">
+        <div className="text3">
           <span className="subtext2">our mission & vision</span>
           <h4>celebrate WITH US</h4>
 
@@ -133,7 +134,7 @@ export default function Home() {
 
         </div>
       </section>
-
+{/* <main>
       <section>
         <div className="my-block">
           <span>Watch and listen</span>

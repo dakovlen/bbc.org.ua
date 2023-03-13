@@ -277,7 +277,7 @@ header {
 
   .subtext {
     font-weight: 400;
-    font-size: 26px;
+    font-size: 16px;
     line-height: 19px;
     color: #161722;
   }
@@ -400,206 +400,143 @@ header {
 
 
 
-/*welcome*/
+/*Welcome*/
 
-.heading1 .text2 {
-
-  padding-top: 10px;
-  display: flex;
-  justify-content: center;
-
-
+.heading1 {
+  margin-top: 128px;
+  margin-bottom: 128px;
 }
 
-.heading1 .subtext1 {
-  position: absolute;
-  left: 760px;
-  padding-top: 128px;
-
+.text2 {
+  text-align: center;
   font-family: 'Roboto Condensed';
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
   text-transform: uppercase;
-
-  /* Black */
-
-  color: #161722;
-}
-
-.heading1 h2 {
-
-  position: absolute;
-  left: 468px;
-  padding-top: 163px;
-  margin-top: 16px;
-  margin-bottom: 64px;
-
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 64px;
-  /* identical to box height, or 133% */
-
-  text-align: center;
   letter-spacing: -0.01em;
-  text-transform: uppercase;
 
-  /* Black */
 
-  color: #161722;
-}
+  .subtext1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #161722;
+  }
 
-.heading1 p {
-  position: absolute;
-  padding-top: 259px;
-  width: 870px;
-  left: 332px;
-  height: 72px;
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
+  h2 {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #161722;
+  }
 
-  text-align: center;
+  p {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    opacity: 0.78;
+    text-transform: none;
+  }
 
-  /* Black */
+  button {
+    background: #FFD2A4;
+    border-radius: 12px;
+    border: none;
+    align-items: center;
+    padding: 24px 64px;
+    margin-top: 87px;
+    text-transform: uppercase;
 
-  color: #161722;
-
-  opacity: 0.78;
-}
-
-.heading1 button {
-  background: #FFD2A4;
-  border-radius: 12px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 24px 64px;
-  gap: 16px;
-  position: absolute;
-  left: 740px;
-  margin-top: 387px;
+    &:hover {
+      background: #F2C79B;
+    }
+  }
 }
 
 .image-container {
-  margin-left: 238px;
+  justify-content: center;
   display: flex;
-  padding-top: 435px;
+  margin-top: -10px;
+
+  img {
+    margin-right: 24px;
+
+    &:nth-child(2) {
+      margin-top: 48px;
+    }
+
+    &:first-child,
+    &:last-child {
+      width: 293px;
+      height: 384px;
+    }
+
+    &:nth-child(2) {
+      width: 390px;
+      height: 512px;
+    }
+  }
 }
 
-.image-container img {
-  margin-right: 24px;
-}
-
-.image-container img:nth-child(2) {
-  margin-top: 48px;
-}
-
-.image-container img:first-child,
-.image-container img:last-child {
-  width: 293px;
-  height: 384px;
-}
-
-.image-container img:nth-child(2) {
-  width: 390px;
-  height: 512px;
-}
-
-.heading1 h4 {
-
-  position: absolute;
-  left: 673px;
-  padding-top: 99px;
-  margin-top: 16px;
-  margin-bottom: 64px;
-
+.text3 {
+  margin-top: 64px;
+  text-align: center;
   font-family: 'Roboto Condensed';
   font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  /* identical to box height, or 138% */
-
-  text-align: center;
+  text-transform: uppercase;
   letter-spacing: -0.01em;
-  text-transform: uppercase;
 
-  /* Black */
+  .subtext2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #161722;
+  }
 
-  color: #161722;
+  h4 {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #161722;
+
+
+  }
+
+  p {
+    padding-left: 350px;
+    padding-right: 350px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #161722;
+    opacity: 0.78;
+    text-transform: none;
+  }
+
+  a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #161722;
+    text-decoration: none;
+    text-transform: none;
+
+    &:hover {
+      color: #F2C79B;
+    }
+  }
 }
 
-.text2 span {
-  padding-top: 64px;
-  position: absolute;
-  left: 760px;
-
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
-  text-transform: uppercase;
-
-  /* Black */
-
-  color: #161722;
-}
-
-.text2 p {
-  padding-top: 159px;
-  width: 512px;
-  height: 48px;
-  position: absolute;
-  left: 541px;
-
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
-
-  text-align: center;
-
-  /* Black */
-
-  color: #161722;
-
-  opacity: 0.78;
-}
-
-.text2 a {
-  margin-top: 16px;
-  padding-top: 223px;
-  text-decoration: none;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  /* identical to box height, or 114% */
-
-  display: flex;
-  align-items: flex-end;
-
-  color: #161722;
-}
 
 /* Benefits of our Church */
+
 .my-block {
   background: #F5F2F0;
 
