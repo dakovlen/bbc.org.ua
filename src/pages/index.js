@@ -311,10 +311,28 @@ export default function Home() {
           <a href="#">Blog</a>
         </div>
         <div className="footer-block">
-          <p>Connect with Us</p>
-          <a href="#"><i className="fab fa-facebook fa-lg"></i></a>
-          <a href="#"><i className="fab fa-twitter fa-lg"></i></a>
-          <a href="#"><i className="fab fa-instagram fa-lg"></i></a>
+          <p>Connect</p>
+          <Link href="./" className="logo">
+            <Image
+              src="/Image/Facebook.svg"
+              alt="Logo"
+              width="20"
+              height="20" />
+          </Link>
+          <Link href="./" className="logo">
+            <Image
+              src="/Image/Twitter.svg"
+              alt="Logo"
+              width="20"
+              height="20" />
+          </Link>
+          <Link href="./" className="logo">
+            <Image
+              src="/Image/LinkedIn.svg"
+              alt="Logo"
+              width="20"
+              height="20" />
+          </Link>
         </div>
         <div className="content-form">
           <h4>Subscribe to get Latest Updates and News</h4>
