@@ -134,7 +134,8 @@ export default function Home() {
 
         </div>
       </section>
-{/* <main>
+
+{/**Benefits of our church */}
       <section>
         <div className="my-block">
           <span>Watch and listen</span>
@@ -143,8 +144,8 @@ export default function Home() {
             <Image 
               src="/Image/fashion-man-love-people-5875438.jpg" 
               alt="Картинка 1" 
-              width="2" 
-              height="2" />
+              width="302" 
+              height="384" />
             <h5 className="image-title">WATCH AND LISTEN TO OUR SERMONS</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
           </div>
@@ -152,30 +153,32 @@ export default function Home() {
             <Image 
               src="/Image/a-statue-holding-a-holy-book-5613134.jpg" 
               alt="Картинка 2"
-              width="2" 
-              height="2" />
+              width="302" 
+              height="384" />
             <h5>WATCH AND LISTEN TO OUR SERMONS</h5>
           </div>
           <div className="image-wrapper">
             <Image 
               src="/Image/man-people-woman-connection-6276711.jpg" 
               alt="Картинка 3"
-              width="2" 
-              height="2" />
+              width="302" 
+              height="384" />
             <h5>WATCH AND LISTEN TO OUR SERMONS</h5>
           </div>
           <div className="image-wrapper">
             <Image 
               src="/Image/woman-in-blue-tank-top-and-man-in-red-shirt-painting-3795022.jpg" 
               alt="Картинка 4"
-              width="2" 
-              height="2" />
+              width="302" 
+              height="384" />
             <h5>WATCH AND LISTEN TO OUR SERMONS</h5>
           </div>
 
         </div>
       </section>
 
+{/**Event info */}
+{/* <main>
       <section className="block-info wrapper">
         <span className="block-info1">Watch and listen</span>
         <h2 className="block-info2">join us and become part of something great</h2>
@@ -196,16 +199,16 @@ export default function Home() {
               <Image 
                 src="/Image/Clock icon.png" 
                 alt="Icon"
-                width="2" 
-                height="2" />
+                width="20" 
+                height="20" />
               <p>Friday 23:39 IST<br /> Saturday 11:20 ISD</p>
             </div>
             <div className="icon-and-location">
               <Image 
                 src="/Image/location.png" 
                 alt="Location"
-                width="2" 
-                height="2" />
+                width="20" 
+                height="25" />
               <p>No 233 Main St. New York,<br /> United States</p>
             </div>
             <button>Register</button>
@@ -213,8 +216,8 @@ export default function Home() {
           <Image 
             src="/Image/angel.jpg" 
             alt="Image"
-            width="2" 
-            height="2" />
+            width="845" 
+            height="512" />
 
         </div>
         <a href="#">View all Sermons →</a>
