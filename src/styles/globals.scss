@@ -254,99 +254,83 @@ header {
       background: #F2C79B;
     }
   }
+
+  img {
+    padding-top: 0px;
+    max-width: 1540px;
+    width: 100%;
+  }
 }
 
+// What we do
 
-
-.home-header img {
-  padding-top: 0px;
-  max-width: 1540px;
-  width: 100%;
+.heading {
+  margin-top: 128px
 }
 
-.heading .text1 {
-  padding-top: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-.heading .subtext {
-  position: absolute;
-  left: 760px;
-  top: 871px;
-
+.text1 {
+  text-align: center;
   font-family: 'Roboto Condensed';
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  text-align: center;
   text-transform: uppercase;
-
-  /* Black */
-
-  color: #161722;
-}
-
-.heading h2 {
-
-  position: absolute;
-  left: 468px;
-  top: 906px;
-  margin-top: 16px;
-  margin-bottom: 64px;
-
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 64px;
-  /* identical to box height, or 133% */
-
-  text-align: center;
   letter-spacing: -0.01em;
-  text-transform: uppercase;
 
-  /* Black */
+  .subtext {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 19px;
+    color: #161722;
+  }
 
-  color: #161722;
+  h2 {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #161722;
+  }
 }
+
+
 
 .block-container {
   display: flex;
   gap: 24px;
   margin-right: 110px;
-  margin-top: 291px;
+  margin-top: 64px;
+  width: 100%;
 
-}
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-.block-container:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    width: 251px;
+    height: 96px;
+    padding-right: 80px;
+  }
 
-.block-container div p {
-  width: 251px;
-  height: 96px;
-}
+  h4 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+  }
 
-.block-container div h4 {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  /* identical to box height, or 138% */
-
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-
-  /* Black */
-
-  color: #161722;
 }
 
 .block1 {
@@ -357,23 +341,18 @@ header {
   padding-top: 80px;
   height: 380px;
   position: relative;
-}
 
-.block1::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  /* встановлюємо відстань лінії від нижнього краю блоку */
-  left: 0;
-  /* встановлюємо початкову позицію лінії відносно блоку */
-  width: 100%;
-  /* встановлюємо ширину лінії */
-  height: 16px;
-  /* встановлюємо висоту лінії */
-  background-color: #FFD2A4;
-  /* встановлюємо колір лінії */
-  transform: matrix(1, 0, 0, -1, 0, 0);
-  /* трансформуємо лінію за допомогою матриці */
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background-color: #FFD2A4;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+
 }
 
 .block2 {
@@ -384,23 +363,18 @@ header {
   padding-top: 80px;
   height: 380px;
   position: relative;
-}
 
-.block2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  /* встановлюємо відстань лінії від нижнього краю блоку */
-  left: 0;
-  /* встановлюємо початкову позицію лінії відносно блоку */
-  width: 100%;
-  /* встановлюємо ширину лінії */
-  height: 16px;
-  /* встановлюємо висоту лінії */
-  background-color: #FFD2A4;
-  /* встановлюємо колір лінії */
-  transform: matrix(1, 0, 0, -1, 0, 0);
-  /* трансформуємо лінію за допомогою матриці */
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background-color: #FFD2A4;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
+  }
 }
 
 .block3 {
@@ -410,53 +384,20 @@ header {
   padding-left: 80px;
   padding-top: 80px;
   position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background-color: #FFD2A4;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
+  }
 }
 
-.block3::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  /* встановлюємо відстань лінії від нижнього краю блоку */
-  left: 0;
-  /* встановлюємо початкову позицію лінії відносно блоку */
-  width: 100%;
-  /* встановлюємо ширину лінії */
-  height: 16px;
-  /* встановлюємо висоту лінії */
-  background-color: #FFD2A4;
-  /* встановлюємо колір лінії */
-  transform: matrix(1, 0, 0, -1, 0, 0);
-  /* трансформуємо лінію за допомогою матриці */
-}
-
-.block img {
-  max-width: 100%;
-  height: auto;
-}
-
-.block h4 {
-  margin-top: 24px;
-  font-size: 24px;
-}
-
-.block1 p {
-  margin-top: 12px;
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
-
-
-  /* Black */
-
-  color: #161722;
-  width: 251px;
-  height: 96px;
-}
 
 
 /*welcome*/

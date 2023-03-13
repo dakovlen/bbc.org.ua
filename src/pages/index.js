@@ -37,7 +37,7 @@ export default function Home() {
       </header>
       
       <div className="home-header">
-          <div className="header wrapper ">
+          <div className="header wrapper">
             <span>Welcome to our CHURCH</span>
             <h1>Become a part of our community</h1>
             <button className="button">Learn more</button>
@@ -52,8 +52,10 @@ export default function Home() {
               height="633"
             />
           </div>
+        </div> 
+        
+        {/* What we do*/}
 
-        </div>{/* <main>
         <section className="heading wrapper">
         <div className="text1">
           <span className="subtext">sub-headline</span>
@@ -64,8 +66,8 @@ export default function Home() {
             <Image 
               src="/Image/Icon1.png" 
               alt="Іконка 1" 
-              width="2"
-              height="2"
+              width="48"
+              height="48"
             />
             <h4>About us</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -74,8 +76,8 @@ export default function Home() {
             <Image 
               src="/Image/Icon2.png" 
               alt="Іконка 2"
-              width="2"
-              height="2" />
+              width="48"
+              height="48" />
             <h4>Get involved</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
@@ -83,13 +85,14 @@ export default function Home() {
               <Image 
                 src="/Image/Icon3.png" 
                 alt="Іконка 3"
-                width="2"
-                height="2" />
+                width="48"
+                height="48" />
             <h4>Giving back</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-      </section>
+      </section>{/* <main>
+
       <section className="heading1 wrapper">
         <div className="text2">
           <span className="subtext1">sub-headline</span>
