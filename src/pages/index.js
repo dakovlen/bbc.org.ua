@@ -557,10 +557,182 @@ export default function Home() {
           </div>
 
         </div>
-      </section></main> */}
+      </section>
 
 
-      
+        (Sermons)
+
+
+
+<section className="block-info wrapper">
+        <span className="block-info1">Watch and listen</span>
+        <h2 className="block-info2">join us and become part of something great</h2>
+        <div className="info-block">
+
+          <div className="info-text">
+            <div className="date">
+              <h5>20</h5>
+              <span>July</span>
+            </div>
+            <div className="block-text">
+              <span>Upcoming Event</span>
+              <h5>WATCH AND LISTEN TO OUR SERMONS</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+
+            <div className="icon-and-time">
+              <Image 
+                src="/Image/Clock icon.png" 
+                alt="Icon"
+                width="20" 
+                height="20" />
+              <p>Friday 23:39 IST<br /> Saturday 11:20 ISD</p>
+            </div>
+            <div className="icon-and-location">
+              <Image 
+                src="/Image/location.png" 
+                alt="Location"
+                width="20" 
+                height="25" />
+              <p>No 233 Main St. New York,<br /> United States</p>
+            </div>
+            <button>Register</button>
+          </div>
+          <Image 
+            src="/Image/angel.jpg" 
+            alt="Image"
+            width="845" 
+            height="512" />
+
+        </div>
+        <a href="#">View all Sermons →</a>
+
+
+      </section>
+
+      <section className="block-sermons wrapper">
+        <h2 className="block-sermons1">join us and become part of something great</h2>
+        <div className="block-sermons2">
+
+          <div className="info-sermons">
+            <div className="date">
+              <h5>20</h5>
+              <span>July</span>
+            </div>
+            <div className="text-sermons">
+              <span>Upcoming Event</span>
+              <h5>100 random acts of kindness</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div className="icon-and-time1">
+              <Image 
+                src="/Image/Clock icon.png" 
+                alt="Icon"
+                width="20" 
+                height="20" />
+              <p>Friday 23:39 IST<br /> Saturday 11:20 ISD</p>
+            </div>
+            <div className="icon-and-location1">
+              <Image 
+                src="/Image/location.png" 
+                alt="Location"
+                width="20" 
+                height="25" />
+              <p>No 233 Main St. New York,<br /> United States</p>
+            </div>
+            
+          </div>
+          <div className="info-sermons">
+            <div className="date">
+              <h5>20</h5>
+              <span>July</span>
+            </div>
+            <div className="text-sermons">
+              <span>Upcoming Event</span>
+              <h5>Faith is a process, not a destination</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div className="icon-and-time1">
+              <Image 
+                src="/Image/Clock icon.png" 
+                alt="Icon"
+                width="20" 
+                height="20" />
+              <p>Friday 23:39 IST<br /> Saturday 11:20 ISD</p>
+            </div>
+            <div className="icon-and-location1">
+              <Image 
+                src="/Image/location.png" 
+                alt="Location"
+                width="20" 
+                height="25" />
+              <p>No 233 Main St. New York,<br /> United States</p>
+            </div>
+            
+          </div>
+          <div className="info-sermons">
+            <div className="date">
+              <h5>20</h5>
+              <span>July</span>
+            </div>
+            <div className="text-sermons">
+              <span>Upcoming Event</span>
+              <h5>there is nothing impossible</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div className="icon-and-time1">
+              <Image 
+                src="/Image/Clock icon.png" 
+                alt="Icon"
+                width="20" 
+                height="20" />
+              <p>Friday 23:39 IST<br /> Saturday 11:20 ISD</p>
+            </div>
+            <div className="icon-and-location1">
+              <Image 
+                src="/Image/location.png" 
+                alt="Location"
+                width="20" 
+                height="25" />
+              <p>No 233 Main St. New York,<br /> United States</p>
+            </div>
+            
+          </div>
+          <div className="info-sermons">
+            <div className="date">
+              <h5>20</h5>
+              <span>July</span>
+            </div>
+            <div className="text-sermons">
+              <span>Upcoming Event</span>
+              <h5>WATCH AND LISTEN TO OUR SERMONS</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div className="icon-and-time1">
+              <Image 
+                src="/Image/Clock icon.png" 
+                alt="Icon"
+                width="20" 
+                height="20" />
+              <p>Friday 23:39 IST<br /> Saturday 11:20 ISD</p>
+            </div>
+            <div className="icon-and-location1">
+              <Image 
+                src="/Image/location.png" 
+                alt="Location"
+                width="20" 
+                height="25" />
+              <p>No 233 Main St. New York,<br /> United States</p>
+            </div>
+            
+          </div>
+          </div>
+          </section></main> */}
+
     </>
   )
 }
