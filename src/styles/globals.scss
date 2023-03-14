@@ -1122,7 +1122,7 @@ header {
     display: inline-block;
     margin-right: 16px;
     text-decoration: none;
-    }
+  }
 }
 
 .content-form {
@@ -1234,5 +1234,229 @@ header {
     line-height: 14px;
     text-transform: uppercase;
     color: #FFFFFF;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Block About Us*/
+
+
+
+.block-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 128px;
+  margin-left: 255px;
+  margin-right: 255px;
+}
+
+.text-about1,
+.text-about2 {
+  width: 50%;
+  text-align: left;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  color: #161722;
+  padding-right: 25px;
+
+  span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* or 138% */
+
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.78;
+  }
+}
+
+/* Title Benefits of our Church*/
+
+.block-title {
+  text-align: center;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  color: #161722;
+}
+
+.block-title1 {
+  text-transform: uppercase;
+  padding-left: 350px;
+  padding-right: 350px;
+
+  span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 16px;
+    margin-bottom: 64px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+  }
+}
+
+.block-text-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 96px;
+  margin-left: 120px;
+  margin-right: 120px;
+
+  .text-image {
+    flex: 1;
+    text-align: left;
+    color: #161722;
+    padding-right: 40px;
+    padding-left: 0px;
+  }
+
+  .image-text {
+    flex: 1;
+    text-align: left;
+    color: #161722;
+    padding-right: 0px;
+    padding-left: 40px;
+  }
+
+  h4 {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.78;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/*Title Our Team*/
+
+.our-team {
+
+
+  text-align: center;
+  height: 871px;
+  padding-top: 128px;
+
+  span {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #161722;
+  }
+
+  h2 {
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+  }
+}
+
+.our-team .block-item1,
+.our-team .block-item2,
+.our-team .block-item3,
+.our-team .block-item4 {
+  position: relative;
+  display: inline-block;
+  margin: 32px 12px 0;
+  padding-top: 48px;
+  vertical-align: top;
+  width: 302px;
+  height: 366px;
+  text-align: center;
+  background: #F5F2F0;
+
+  h5 {
+    margin-top: 26px;
+    margin-bottom: 8px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+  }
+
+  p {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    opacity: 0.7;
+    margin-bottom: 16px;
+  }
+
+  a {
+    padding-right: 20px;
+    text-decoration: none;
+
+    &:last-of-type {
+      padding-right: 0;
+    }
   }
 }

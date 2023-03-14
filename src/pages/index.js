@@ -312,21 +312,21 @@ export default function Home() {
         </div>
         <div className="footer-block">
           <p>Connect</p>
-          <Link href="./" className="logo">
+          <Link href="./">
             <Image
               src="/Image/Facebook.svg"
               alt="Logo"
               width="20"
               height="20" />
           </Link>
-          <Link href="./" className="logo">
+          <Link href="./">
             <Image
               src="/Image/Twitter.svg"
               alt="Logo"
               width="20"
               height="20" />
           </Link>
-          <Link href="./" className="logo">
+          <Link href="./">
             <Image
               src="/Image/LinkedIn.svg"
               alt="Logo"
@@ -343,6 +343,224 @@ export default function Home() {
         </div>
         </div>
       </footer> 
+{/* <main>
+
+(Section About US)
+
+      <section className='block-about wrapper'>
+      <div class="text-about1">
+  <span>OUR MISSIOn & Vision</span>
+  <h4>STRIVING FOR A BETTER TOMORROW</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+</div>
+
+<div class="text-about2">
+  <span>WHAT WE DO</span>
+  <h4>BRINgING PEACE AND JOY TO THE WORLD</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+</div>
+
+      </section>
+
+
+
+(Title Benefits of our Church)
+
+
+
+
+      <section className='block-title wrapper'>
+        <div className="block-title1">
+          <span>BENEFITS</span>
+          <h2>THE benefits of joining our church</h2>
+</div>
+<div class="block-text-image">
+  <div class="text-image">
+    <h4>find fulfillment and joy</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+  </div>
+<Image 
+            src="/Image/3MWdi5_6Hrc.png" 
+            alt="Image"
+            width="500" 
+            height="320" />
+  
+</div>
+<div class="block-text-image">
+    <Image 
+            src="/Image/3Xmcv5MjZpw.png" 
+            alt="Image"
+            width="500" 
+            height="320" />
+            <div class="image-text">
+    <h4>shared values</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+  </div>
+</div>
+
+<div class="block-text-image">
+  <div class="text-image">
+    <h4>charity events</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+  </div>
+<Image 
+            src="/Image/3MWdi5_6Hrc1.png" 
+            alt="Image"
+            width="500" 
+            height="320" />
+  
+</div>
+<div class="block-text-image">
+    <Image 
+            src="/Image/3Xmcv5MjZpw2.png" 
+            alt="Image"
+            width="500" 
+            height="320" />
+            <div class="image-text">
+    <h4>All are welcome</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+  </div>
+</div>
+
+</section>
+ 
+
+
+ (Our Team)
+
+
+
+<section>
+        <div className="our-team">
+          <span>church members</span>
+          <h2>meet our Inspirational team</h2>
+          <div className="block-item1">
+            <div>
+            <Image 
+              src="/Image/Image-item1.png" 
+              alt="Картинка 1" 
+              width="152" 
+              height="152" /></div>
+            <h5>Kim Bowen</h5>
+            <p>Pastor, Church</p>
+            <Link href="./">
+            <Image
+              src="/Image/Facebook-black.svg"
+              alt="Logo"
+              width="16"
+              height="16" />
+          </Link>
+          <Link href="./">
+            <Image
+              src="/Image/Twitter-black.svg"
+              alt="Logo"
+              width="16"
+              height="16" />
+          </Link>
+          <Link href="./">
+            <Image
+              src="/Image/LinkedIn-black.svg"
+              alt="Logo"
+              width="16"
+              height="16" />
+          </Link>
+          </div>
+          <div className="block-item2">
+            <Image 
+              src="/Image/Image-item2.png" 
+              alt="Картинка 2"
+              width="152" 
+              height="152" />
+            <h5>Danielle Watkins</h5>
+            <p>Pastor, Church</p>
+            <Link href="./">
+            <Image
+              src="/Image/Facebook-black.svg"
+              alt="Logo"
+              width="16"
+              height="16" />
+          </Link>
+          <Link href="./">
+            <Image
+              src="/Image/Twitter-black.svg"
+              alt="Logo"
+              width="16"
+              height="16" />
+          </Link>
+          <Link href="./">
+            <Image
+              src="/Image/LinkedIn-black.svg"
+              alt="Logo"
+              width="16"
+              height="16" />
+          </Link>
+          </div>
+          <div className="block-item3">
+            <Image 
+              src="/Image/Image-item3.png" 
+              alt="Картинка 3"
+              width="152" 
+              height="152" />
+            <h5>Naomi Craig</h5>
+            <p>Pastor, Church</p>
+            <Link href="./">
+            <Image
+              src="/Image/Facebook-black.svg"
+              alt="Logo"
+              width="16"
+              height="16" />
+          </Link>
+          <Link href="./">
+            <Image
+              src="/Image/Twitter-black.svg"
+              alt="Logo"
+              width="16"
+              height="16" />
+          </Link>
+          <Link href="./">
+            <Image
+              src="/Image/LinkedIn-black.svg"
+              alt="Logo"
+              width="16"
+              height="16" />
+          </Link>
+          </div>
+          <div className="block-item4">
+            <Image 
+              src="/Image/Image-item4.png" 
+              alt="Картинка 4"
+              width="152" 
+              height="152" />
+            <h5>Santos Payne</h5>
+            <p>Pastor, Church</p>
+            <Link href="./">
+            <Image
+              src="/Image/Facebook-black.svg"
+              alt="Logo"
+              width="16"
+              height="16" />
+          </Link>
+          <Link href="./">
+            <Image
+              src="/Image/Twitter-black.svg"
+              alt="Logo"
+              width="16"
+              height="16" />
+          </Link>
+          <Link href="./">
+            <Image
+              src="/Image/LinkedIn-black.svg"
+              alt="Logo"
+              width="16"
+              height="16" />
+          </Link>
+          </div>
+
+        </div>
+      </section></main> */}
+
+
+      
     </>
   )
 }
